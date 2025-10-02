@@ -23,7 +23,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://officialslayer598_db_user:R9SCWbkPcShhBacb@cluster0.oyqv8ek.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "770392298").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
-STRING = os.getenv("STRING", None) # optional
+STRING = os.getenv("STRING", "") # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-100") # optional with -100
 FORCE_SUB = int(os.getenv("FORCE_SUB", "-100")) # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq") # for session encryption
@@ -34,6 +34,7 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "100"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+
 
 
 
